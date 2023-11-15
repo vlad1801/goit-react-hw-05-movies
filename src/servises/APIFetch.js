@@ -7,8 +7,6 @@ const instanse = axios.create({
   },
 });
 
-const APIKEY = '';
-const BASEURL = '/';
 export const IMAGEBASEURL = 'https://image.tmdb.org/t/p/w500';
 
 export async function getPopularMovies() {
